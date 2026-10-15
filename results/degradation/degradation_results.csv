@@ -1,0 +1,11 @@
+condition,codec,snr_db,accuracy,f1_macro
+alaw_clean,alaw,,0.8737,0.8655
+alaw_snr20,alaw,20,0.8658,0.8553
+alaw_snr15,alaw,15,0.8237,0.8152
+alaw_snr10,alaw,10,0.7895,0.7778
+alaw_snr5,alaw,5,0.7921,0.7758
+gsm_clean,gsm,,0.8474,0.8321
+gsm_snr20,gsm,20,0.8342,0.8197
+gsm_snr15,gsm,15,0.8184,0.8026
+gsm_snr10,gsm,10,0.7947,0.7834
+gsm_snr5,gsm,5,0.7789,0.7695

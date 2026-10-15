@@ -1,0 +1,5 @@
+{
+  "_comment": "Canonical, fixed LOSO speaker split for all experiments (classical ML, LSTM, future HuBERT). Raw EmoDB speaker IDs. Do not regenerate unless the underlying dataset changes -- and if you do, update every experiment's saved results together, since this is the basis for cross-architecture comparisons in the results chapter.",
+  "train_val_speakers": [3, 8, 9, 10, 11, 14, 15, 16],
+  "test_speakers": [12, 13]
+}

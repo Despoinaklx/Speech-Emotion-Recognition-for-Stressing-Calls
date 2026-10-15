@@ -1,0 +1,26 @@
+# Python >= 3.9 (developed with 3.9 / 3.10)
+# Install PyTorch matching your CUDA version first if needed: https://pytorch.org/get-started/
+
+# Core
+numpy>=1.26
+scipy>=1.13
+pandas>=2.2
+scikit-learn==1.6.1
+imbalanced-learn>=0.12.4
+joblib>=1.4
+tqdm>=4.66
+
+# Audio / features
+librosa>=0.11
+soundfile>=0.13
+praat-parselmouth>=0.4.6
+
+# Deep learning
+torch>=2.5
+transformers>=4.51
+
+# Plotting
+matplotlib>=3.9
+seaborn>=0.13
+
+# System dependency (not pip): ffmpeg, used as a codec fallback and for mp3 export
